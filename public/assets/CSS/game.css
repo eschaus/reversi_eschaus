@@ -24,6 +24,7 @@ body {
   }
 
   table#game_board td{
+    background-color: rgb(132, 195, 132);
     border:1px solid black;
     margin:0px;
     padding:0px;
