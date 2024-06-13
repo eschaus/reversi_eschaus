@@ -301,10 +301,10 @@ socket.on('game_update', (payload) => {
     }
 
     if (payload.game.whose_turn === 'white') {
-        $("#my_color").append('<h4>It is white\'s turn</h4>');
+        $("#my_color").append('<h4>~White\'s turn~</h4>');
     }
     else if (payload.game.whose_turn === 'black') {
-        $("#my_color").append('<h4>It is black\'s turn</h4>');
+        $("#my_color").append('<h4>~Black\'s turn~</h4>');
     }
     else {
         $("#my_color").append('<h4>Error: Don\'t know whose turn is it</h4>');

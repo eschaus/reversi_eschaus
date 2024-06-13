@@ -11,9 +11,10 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <style>
     body {
-      background-color: darkseagreen;
+      background-color: rgb(20, 33, 61);
     }
   </style>
+  <link rel='stylesheet' href='assets/CSS/game.css' />
   <title>Reversi!</title>
 </head>
 
@@ -21,10 +22,10 @@
   <div class="container-fluid">
     <div class="row m-3">
       <div class="col text-center">
-        <a class="btn btn-success text-nowrap" href="about.html">About</a>
+        <a class="btn btn-outline-info text-nowrap" href="about.html">About the Developer</a>
       </div>
       <div class="col text-center">
-        <a class="btn btn-success text-nowrap" href="https://en.wikipedia.org/wiki/Reversi">Rules</a>
+        <a class="btn btn-outline-info text-nowrap" href="https://www.youtube.com/watch?v=4XdyAZhzJW8">How to Play</a>
       </div>
     </div>
 
@@ -38,9 +39,9 @@
       <div class="col-8">
         <div class="input-group">
           <span class="input-group-text" id="displayName">Name</span>
-          <input type="text" class="form-control text-nowrap" id="nameInput" placeholder="Choose your display name"
+          <input type="text" class="form-control text-nowrap" id="nameInput" style="font-style: italic" placeholder="Choose your display name..."
             aria-label="Enter your dispaly name for use while playing Reversi" aria-describedby="displayName" />
-          <button type="submit" class="btn btn-primary text-nowrap" id="lobbyButton" onclick="goToLobby()">Enter
+          <button type="submit" class="btn btn-secondary text-nowrap" id="lobbyButton" onclick="goToLobby()">Enter
             Lobby</button>
         </div>
       </div>
